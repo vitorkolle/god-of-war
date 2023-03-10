@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/380d2-clickwallpapers-god-of-war-sony-playstation_img1-scaled-1.jpg?resize=2048%2C1152&ssl=1);
+background-position-x: center;
+    }
+
+
+
+header{
+    display: flex;
+    background-color:transparent;
+    margin-bottom: 20px;
+    font-style:bold ;
+    margin-left: 20px;
+    
+
+}
+.cabecalho{
+    position: flex-end;
+    color: black;
+    font-size: 5vh;
+    
+   
+}
+
+main{
+    display: flex;
+    background-color: transparent;
+   
+    
+}
+.logo{
+    position: relative;
+    height: 30vh;
+    z-index: -1;
+    
+}
+
+.redes__sociais{
+   display: grid;
+   position: relative;
+    align-items: flex-end;
+    margin-left: 250px;
+    height: 40vh;
+    
+}
+
+
+
+.sinopse-jogo{
+     text-align:left;
+     font-size: 20px;
+     width: 850px;
+     background-color: transparent;
+     font-family: 'Libre Baskerville', serif;
+     margin-left: 10px;
+     color: azure;
+
+     
+    
+}
+
+
+
+
+footer{
+    background-color: transparent;
+   text-align: center;
+   size: 10vh;
+   margin-top: 55px;
+   font-size: 5vh;
+
+   
+    
+}
+
+.trailers{
+height: 25vh;
+display:flex;
+border: white;
+
+
+
+
+
+}
+
+.trailer1{
+    height: 25vh;
+    align-content: flex-start;
+    margin-right: 15px;
+    
+}
+
+.trailer2{
+    height: 25vh;
+    align-self: flex-start;
+    margin-right: 15px;
+}
+
+.trailer3{
+    height: 25vh;
+    align-content: flex-start;
+    margin-right: 15px;
+}
+
+
+
+
