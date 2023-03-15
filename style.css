@@ -5,25 +5,30 @@
     
 }
 body{
-    background-image: url(https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/380d2-clickwallpapers-god-of-war-sony-playstation_img1-scaled-1.jpg?resize=2048%2C1152&ssl=1);
+    background-image: url(https://assets.reedpopcdn.com/gow-r_2.png/BROK/thumbnail/1600x900/quality/100/gow-r_2.png);
 background-position-x: center;
     }
 
 
 
 header{
-    display: flex;
+    display: ;
     background-color:transparent;
-    margin-bottom: 20px;
-    font-style:bold ;
-    margin-left: 20px;
+    column-gap: 100px;
     
-
+    
+    
 }
 .cabecalho{
-    position: flex-end;
-    color: black;
+    position: flex-start;
+    color: white;
     font-size: 5vh;
+    margin-left: 5vh;
+    
+    
+    
+    
+   
     
    
 }
@@ -31,6 +36,9 @@ header{
 main{
     display: flex;
     background-color: transparent;
+    margin-left: 5vh;
+    text-align: justify;
+    margin-bottom: 0;
    
     
 }
@@ -44,9 +52,9 @@ main{
 .redes__sociais{
    display: grid;
    position: relative;
-    align-items: flex-end;
-    margin-left: 250px;
+    align-items: right;
     height: 40vh;
+    margin-left: 80vh;
     
 }
 
@@ -58,7 +66,6 @@ main{
      width: 850px;
      background-color: transparent;
      font-family: 'Libre Baskerville', serif;
-     margin-left: 10px;
      color: azure;
 
      
@@ -72,17 +79,18 @@ footer{
     background-color: transparent;
    text-align: center;
    size: 10vh;
-   margin-top: 55px;
-   font-size: 5vh;
+  font-size: 5vh;
 
    
     
 }
 
 .trailers{
-height: 25vh;
+height: 1px;
 display:flex;
 border: white;
+margin-left: 5vh;
+margin-top: 0;
 
 
 
