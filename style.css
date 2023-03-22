@@ -7,14 +7,19 @@
 body{
     background-image: url(https://assets.reedpopcdn.com/gow-r_2.png/BROK/thumbnail/1600x900/quality/100/gow-r_2.png);
 background-position-x: center;
+background-repeat: 00;
     }
+    
 
 
 
 header{
-    display: ;
+    display:flex ;
     background-color:transparent;
     column-gap: 100px;
+    
+    
+    
     
     
     
@@ -24,29 +29,59 @@ header{
     color: white;
     font-size: 5vh;
     margin-left: 5vh;
-    
-    
-    
-    
-   
-    
-   
+    word-spacing: 5vh;
+    margin-top: 7px;
+    font-family: 'Koulen', cursive;
 }
+
+.comprar__jogo{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.personagens{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.galeria{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.noticias{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
 
 main{
     display: flex;
     background-color: transparent;
     margin-left: 5vh;
     text-align: justify;
-    margin-bottom: 0;
+    
    
     
 }
+
+
 .logo{
     position: relative;
     height: 30vh;
     z-index: -1;
+    background-color: transparent;
     
+    
+}
+
+.logo2{
+    height: 20vh;
+    align-content: flex-end;
+    background-color: black;
+    margin-left: 120vh;
+    margin-top: -20vh;
 }
 
 .redes__sociais{
@@ -55,6 +90,8 @@ main{
     align-items: right;
     height: 40vh;
     margin-left: 80vh;
+    row-gap: 8vh;
+    margin-right: 3vh;
     
 }
 
@@ -62,8 +99,8 @@ main{
 
 .sinopse-jogo{
      text-align:left;
-     font-size: 20px;
-     width: 850px;
+     font-size: 3vh;
+     width: 2000vh;
      background-color: transparent;
      font-family: 'Libre Baskerville', serif;
      color: azure;
@@ -78,8 +115,8 @@ main{
 footer{
     background-color: transparent;
    text-align: center;
-   size: 10vh;
-  font-size: 5vh;
+   size: 5vh;
+  font-size: 2vh;
 
    
     
@@ -88,9 +125,9 @@ footer{
 .trailers{
 height: 1px;
 display:flex;
-border: white;
 margin-left: 5vh;
-margin-top: 0;
+margin-top: -10vh;
+
 
 
 
