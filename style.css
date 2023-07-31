@@ -6,8 +6,7 @@
 }
 body{
     background-image: url(https://assets.reedpopcdn.com/gow-r_2.png/BROK/thumbnail/1600x900/quality/100/gow-r_2.png);
-background-position-x: center;
-background-repeat: 00;
+    background-size: cover;
     }
     
 
@@ -17,12 +16,6 @@ header{
     display:flex ;
     background-color:transparent;
     column-gap: 100px;
-    
-    
-    
-    
-    
-    
 }
 .cabecalho{
     position: flex-start;
@@ -36,22 +29,22 @@ header{
 
 .comprar__jogo{
     text-decoration: none;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 .personagens{
     text-decoration: none;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 .galeria{
     text-decoration: none;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 .noticias{
     text-decoration: none;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 
@@ -60,7 +53,7 @@ main{
     display: flex;
     background-color: transparent;
     margin-left: 5vh;
-    text-align: justify;
+   
     
    
     
@@ -87,23 +80,23 @@ main{
 .redes__sociais{
    display: grid;
    position: relative;
-    align-items: right;
+    margin-left: 28vh;
     height: 40vh;
-    margin-left: 80vh;
     row-gap: 8vh;
     margin-right: 3vh;
+    margin-top: -8vh;
     
 }
 
 
 
 .sinopse-jogo{
-     text-align:left;
-     font-size: 3vh;
-     width: 2000vh;
+    text-align:left;
+    font-size: 24px;
+    width: 80%;
      background-color: transparent;
      font-family: 'Libre Baskerville', serif;
-     color: azure;
+     color: #f0f8ff;
 
      
     
@@ -123,10 +116,10 @@ footer{
 }
 
 .trailers{
-height: 1px;
+ position: relative;
 display:flex;
 margin-left: 5vh;
-margin-top: -10vh;
+margin-top: -8vh;
 
 
 
